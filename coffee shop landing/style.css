@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+#bgVideo{
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   min-width: 100%; 
+   min-height: 100%;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(LOVE.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.logo{
+    position: relative;
+    color: #fcfcfc;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    
+}
+ .navigation a{
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+
+ }
+ .info{
+   color: #fdf8f8;
+ }
+ 
+ .types{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+ }
+
+ .coffee{
+    text-align: center;
+    color: #fdf8f8;
+    
+ }
+ .coffee img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+ }
+ .coffee h2{
+    margin: 10px 0;
+
+ }
+ 
+ .coffee{
+    margin: 5px 0;
+ }
+ .slogan{
+   
+      position: relative;
+      color: #fcfcfc;
+      font-size: 20px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-align: center;
+      font-style: italic;
+      
+  }
+ 
